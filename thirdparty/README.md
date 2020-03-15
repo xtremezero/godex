@@ -876,6 +876,44 @@ Some downstream changes have been made and are identified by
 They can be reapplied using the patches included in the `patches`
 folder, in order.
 
+## sqlite
+
+### sqlite
+
+- Upstream: https://sqlite.org/download.html
+- Version: 3.31.1.
+- License: Public Domain
+
+Files extracted from upstream source:
+- sqlite3.h
+- sqlite3ext.h
+- sqlite3.c
+
+### spmemvfs
+
+- Upstream: https://github.com/spsoft/spmemvfs
+- Version: git (9921e0b, 2016)
+- License: BSD 2-Clause
+
+Files extracted from upstream source:
+- spmemvfs.h
+- spmemvfs.c
+
+
+## squish
+
+- Upstream: https://sourceforge.net/projects/libsquish
+- Version: 1.15 (r104, 2017)
+- License: MIT
+
+Files extracted from upstream source:
+
+- all .cpp, .h and .inl files
+
+Important: Some files have Godot-made changes.
+They are marked with `// -- GODOT start --` and `// -- GODOT end --`
+comments and a patch is provided in the squish/ folder.
+
 
 ## tinyexr
 

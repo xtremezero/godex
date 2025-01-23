@@ -4856,7 +4856,7 @@ void AnimationTrackEditor::_update_tracks() {
 
 		// Find hint and info for plugin.
 
-		if (use_filter) {
+		if (use_filter && EditorNode::get_singleton()->get_editor_selection()->get_selected_nodes().size()>0 ) {
 			NodePath path = animation->track_get_path(i);
 
 			if (root) {
